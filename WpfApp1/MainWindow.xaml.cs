@@ -32,7 +32,9 @@ namespace WpfApp1
 
         private void btnSearch_Click(object sender, RoutedEventArgs e)
         {
-
+            int A = 2;
+            int B = 3;
+            int C = A + B;
         }
     }
 }
