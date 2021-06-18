@@ -25,7 +25,12 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void btnList_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void btnSearch_Click(object sender, RoutedEventArgs e)
         {
 
         }
