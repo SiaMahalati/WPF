@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace WpfApp1
+namespace WPF_Net
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
@@ -23,16 +23,6 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void btnList_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
-        private void btnSearch_Click(object sender, RoutedEventArgs e)
-        {
-
         }
     }
 }
