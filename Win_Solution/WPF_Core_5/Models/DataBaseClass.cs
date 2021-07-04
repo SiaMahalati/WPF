@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
-namespace DataContextExamples.Models
+namespace WpfApp1.Models
 {
-    class DataBaseClass : INotifyPropertyChanged
+    public class DataBaseClass : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -19,6 +19,7 @@ namespace DataContextExamples.Models
         {
             //the '?' is a null-conditional operator - Invoke is executed if PropertyChanged is not Null
             //https://www.pluralsight.com/guides/using-conditional-and-null-coalescing-operators
+
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propName));
         }
     }
