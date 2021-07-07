@@ -24,5 +24,25 @@ namespace WPF_461
         {
             InitializeComponent();
         }
+
+        private void Add_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Edit_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Next_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Previous_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
